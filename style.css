@@ -3,12 +3,6 @@ body {
   background: #f3f5fc;
 }
 
-/* .green {
-    background-color: #50C878 !important;
-    color: white !important;
-    border: none !important;
-} */
-
 .ocultar {
   display: none;
 }
@@ -29,11 +23,6 @@ body {
 .contenedor-encriptador {
   margin: 6rem 0 0 16rem;
 }
-
-/* .error-message {
-    color: red;
-    margin-bottom: 12px;
-} */
 
 .texto-encriptado {
   background: #f3f5fc;
