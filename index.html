@@ -7,9 +7,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="style.css">
-    <title>Encriptador - Challenge Alura+Oracle</title>
+    <title>Encricptador de Texto</title>
 </head>
 <body>
     <div class="contenedor">
@@ -24,7 +23,7 @@
             <main>
                 <div class="contenedor-encriptador">
                     <!-- <p class="error-message" id="errorMsg"></p> -->
-                    <textarea class="texto-encriptado " name="" id="input-text" cols="75" rows="4" placeholder="Ingrese el texto aqui" maxlength="560"></textarea>
+                    <textarea class="texto-encriptado" name="" id="input-text" cols="75" rows="4" placeholder="Ingrese el texto aqui" maxlength="560"></textarea>
                     <p class="texto-info"><i class="icono-info"><img src="img/Vector.png" alt=""></i>Solo letras minúsculas y sin acentos</p>
                     <div class="contenedor-botones">
                         <button class="clase-boton encriptar" id="btn-encriptar">Encriptar</button>
@@ -39,23 +38,19 @@
                             <div class="contenedor-muñeco">
                                 <img class="muñeco" src="img/Muñeco.svg" alt="">
                             </div>
-                            <div class="results-default-container">
+                            <div class="contenedor-resultado-final">
                                 <h2 class="text-titulo">Ningún mensaje fue encontrado</h2>
                                 <p class="text-descripcion">Ingresa el texto que desees encriptar o desencriptar.</p>
                             </div>
                         </div>
-                        <!-- cambiar aqui -->
                         <div class="area-resultado ocultar" id="area-resultado">
-                            <textarea class="results-box" name="" id="input-text-area" cols="30" rows="10" placeholder="" maxlength="350"></textarea>
+                            <textarea class="text-resultado" name="" id="input-text-area" cols="30" rows="10" placeholder="" maxlength="350"></textarea>
                             <button class="clase-boton boton-copiar light" id="boton-copiar">Copiar</button>
                         </div>
                     </div>
                 </div>
             </aside>
         </div>
-        <footer>
-            
-        </footer>
     </div>
     <script src="/js/script.js"></script>
 </body>
