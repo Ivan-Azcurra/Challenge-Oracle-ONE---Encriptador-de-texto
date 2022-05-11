@@ -4,6 +4,7 @@ const botonEncriptar = document.querySelector("#btn-encriptar");
 const botonDesencriptar = document.querySelector("#btn-desencriptar");
 const ocultarLayout = document.querySelector("#resultado-final");
 const mostrarResultado = document.querySelector("#area-resultado");
+const botonCopiar = document.querySelector("#boton-copiar");
 
 
 botonEncriptar.addEventListener("click", function(){
@@ -21,6 +22,13 @@ botonDesencriptar.addEventListener("click", function(){
     mensaje.value = textoDesencirptado;
     mostrarResultado.classList.remove("ocultar");
   
+});
+
+botonCopiar.addEventListener("click", function(){
+    const copiar = mensaje.value;
+    navigator.clipboard.writeText(copiar);
+    alert("El texto fue copiado!!");
+    mensaje.value = "";
 });
 
 
@@ -48,4 +56,3 @@ function desencriptar(stringParaDesencriptar) {
 
 
 
-// esto funciona hay que analizar el codigo. Estudiar matriz multidimensional
