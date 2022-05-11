@@ -11,7 +11,7 @@ body {
     border: none !important;
 } */
 
-.hide {
+.ocultar {
     display: none;
 }
 
@@ -149,7 +149,7 @@ body {
     border: none;
 }
 
-.copy-button {
+.boton-copiar  {
     background-color: white;
 }
 

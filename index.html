@@ -24,18 +24,18 @@
             <main>
                 <div class="contenedor-encriptador">
                     <!-- <p class="error-message" id="errorMsg"></p> -->
-                    <textarea class="texto-encriptado " name="" id="encryptorBox" cols="75" rows="4" placeholder="Ingrese el texto aqui" maxlength="560"></textarea>
+                    <textarea class="texto-encriptado " name="" id="input-text" cols="75" rows="4" placeholder="Ingrese el texto aqui" maxlength="560"></textarea>
                     <p class="texto-info"><i class="icono-info"><img src="img/Vector.png" alt=""></i>Solo letras minúsculas y sin acentos</p>
                     <div class="contenedor-botones">
-                        <button class="clase-boton encriptar" id="encryptBtn">Encriptar</button>
-                        <button class="clase-boton desencriptar" id="decryptBtn">Desencriptar</button>
+                        <button class="clase-boton encriptar" id="btn-encriptar">Encriptar</button>
+                        <button class="clase-boton desencriptar" id="btn-desencriptar">Desencriptar</button>
                     </div>
                 </div>
             </main>
             <aside>
                 <div class="resultados">
                     <div class="contenedor-resultado">
-                        <div class="resultado-final" id="defaultInfo">
+                        <div class="resultado-final" id="resultado-final">
                             <div class="contenedor-muñeco">
                                 <img class="muñeco" src="img/Muñeco.svg" alt="">
                             </div>
@@ -45,9 +45,9 @@
                             </div>
                         </div>
                         <!-- cambiar aqui -->
-                        <div class="area-resultado hide" id="resultsArea">
-                            <textarea class="results-box" name="" id="resultsBox" cols="30" rows="10" placeholder="" maxlength="350"></textarea>
-                            <button class="standard-button copy-button light" id="copyBtn">Copiar</button>
+                        <div class="area-resultado ocultar" id="area-resultado">
+                            <textarea class="results-box" name="" id="input-text-area" cols="30" rows="10" placeholder="" maxlength="350"></textarea>
+                            <button class="clase-boton boton-copiar light" id="copyBtn">Copiar</button>
                         </div>
                     </div>
                 </div>
@@ -57,6 +57,6 @@
             
         </footer>
     </div>
-    
+    <script src="/js/script.js"></script>
 </body>
 </html>
